@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
+      "projectUniqueName": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
       "projectName": "Wedding_Invitation",
-      "projectPath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
+      "projectPath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
       "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation\\obj\\",
+      "outputPath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",

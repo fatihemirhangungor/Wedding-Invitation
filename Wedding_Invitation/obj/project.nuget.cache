@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLEfeQpryjuTyvBi5gSZzmotLbB5aR1mb5im133mXVNkwZNAYupY47Yw/AuwaECJKTitpJEK6afDdCIc0qmGYQ==",
+  "dgSpecHash": "gHhG+rgJ2lHKbU2lJ97a/Bh2AhIokEaYzn3SPqPSOxqr3H4ouwN2Uk8U0/j6nGOXTGNXpc/CEwqpEfD/bkIUdw==",
   "success": true,
-  "projectFilePath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
+  "projectFilePath": "D:\\github-repositories\\Wedding-Invitation\\Wedding_Invitation\\Wedding_Invitation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
