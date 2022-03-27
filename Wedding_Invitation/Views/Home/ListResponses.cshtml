@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Wedding_Invitation.Models.Response>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Participants</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body style="margin: 250px auto; width: 250px;">
+    <h3>Participants</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Wedding_Invitation.Models.Response x in Model)
+            {
+                <tr>
+                    <td>@x.Name</td>
+                    <td>@x.LastName</td>
+                    <td>@x.Email</td>
+                    <td>@x.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

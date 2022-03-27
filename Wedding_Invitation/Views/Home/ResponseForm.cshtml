@@ -1,0 +1,43 @@
+﻿@model Wedding_Invitation.Models.Response
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ResponseForm</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="shadow-lg p-3 mb-5 bg-white rounded-lg border-radius" style="margin: 250px auto; width: 250px;">
+        <form asp-action="ResponseForm" method="post">
+            <div asp-validation-summary="All"></div>
+            <div class="form-group">
+                <input asp-for="Name" placeholder="Name"/>
+            </div>
+            <div class="form-group">
+                <input asp-for="LastName" placeholder="Last Name"/>
+            </div>
+            <div class="form-group">
+                <input asp-for="Email" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+                <input asp-for="Phone" placeholder="Phone Number"/>
+            </div>
+            <div class="form-group">
+                <label>Will you come to wedding ?</label>
+                <select asp-for="WillComeToWedding">
+                    <option value="">Please Select</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

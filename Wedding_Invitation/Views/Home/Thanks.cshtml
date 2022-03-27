@@ -1,0 +1,29 @@
+﻿@model Wedding_Invitation.Models.Response
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body style="margin: 250px auto; width: 250px;">
+    <div class="d-flex flex-column">
+        <h1 style="text-align:center">Thanks for your response @Model.Name @Model.LastName</h1>
+        @if(Model.WillComeToWedding == true)
+        {
+            @: Thanks for participating, See you there :)
+        }
+        else
+        {
+            @: Sorry, you will miss a lot, maybe you could even get married !!
+        }
+    </div>
+
+    <a asp-action="ListResponses">Click here</a> to see participants of the wedding
+</body>
+</html>
